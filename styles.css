@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header .auth a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header .auth .sign-up {
+    background: #ea4c89;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main {
+    flex: 1;
+    background: #f5f5f5;
+    padding: 20px 0;
+}
+
+main .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.shots {
+    text-align: center;
+}
+
+.shots h1 {
+    margin-bottom: 20px;
+}
+
+.shots-grid {
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.shot {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.shot img {
+    width: 100%;
+    height: auto;
+}
+
+.shot p {
+    padding: 10px;
+    font-size: 1em;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
